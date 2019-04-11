@@ -1,0 +1,45 @@
+@import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+@import '../node_modules/font-awesome/css/font-awesome.min.css';
+@import 'https://bootswatch.com/4/sketchy/bootstrap.css';
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.col-xs-12, .col-sm-6, .col-md-4 {
+    padding: 10px;
+}
+.container {
+    padding: 0 20px;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.container img {
+    width: 100%;
+}   
+
+.jumbotron {
+    margin: 0 10em;
+}
+.form-control{
+    height: inherit;
+}
+.btn{
+    margin: 0 1em;
+}
+.well{
+    margin: 0 auto;
+}
+.categories-table table{
+    margin: 1em auto;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        margin: 0;
+    }
+    .jumbotron{
+        margin: 0;
+    }
+}

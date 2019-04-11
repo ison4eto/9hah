@@ -1,0 +1,14 @@
+.create-meme button {
+    max-width: 25%;
+    margin: 0 auto;
+}
+
+.meme-preview {
+    max-width: 25%;
+}
+
+@media only screen and (max-width: 600px) {
+    .card-body, article {
+        padding: 1em;
+    }
+}

@@ -1,0 +1,52 @@
+div.card {
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+.badge {
+    font-size: 1em;
+}
+
+.error {
+    background-color: #f8d7da;
+    border: #821c26;
+    color: #821c26;
+    margin: 10px;
+}
+.social-outer {
+    transition: opacity 0.5s ease 0s;
+}
+
+.social {
+    width: 145px;
+    height: 60px;
+    border-radius: 2px;
+    border: 1px solid transparent;
+    font-weight: bold;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: center;
+    padding: 15px 15px 15px 60px;
+    border-radius: 2px;
+    cursor: pointer;
+    color: white;
+}
+
+.google {
+    display: inline-block;
+    background: #dc4d28 url('/icons/btn-connect-option.png') no-repeat 0 -60px;
+    
+}
+
+.facebook {
+    background: #3b5998 url('/icons/btn-connect-option.png') no-repeat;
+    margin-left: 1em; 
+}
+
+@media only screen and (max-width: 600px) {
+    div.card {
+        max-width: 100%;
+    }
+}

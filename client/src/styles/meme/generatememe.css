@@ -1,0 +1,163 @@
+input[type=submit], input[type=text] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: #fff;
+    margin: 0;
+}
+
+input[type=submit] {
+    cursor: pointer
+}
+
+textarea {
+    resize: none;
+    height: 60px;
+    background-color: #fff;
+    padding: 8px 10px
+}
+
+textarea:focus {
+    background-color: #fff;
+    outline: 0
+}
+
+section.editor {
+    margin-top: 20px;
+    position: relative;
+    min-height: 600px
+}
+
+section.editor .width-limit {
+    width: 940px;
+    overflow: hidden;
+    margin: 0 auto
+}
+
+.caption .textarea-control {
+    overflow: hidden;
+    margin-top: 10px
+}
+
+.caption ul.segment-control {
+    overflow: hidden;
+    list-style-type: none
+}
+
+.caption ul.segment-control.font-size {
+    float: right
+}
+
+.caption ul.segment-control li {
+    float: left
+}
+
+.caption ul.segment-control li.seperator {
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    height: 30px;
+    text-align: center;
+}
+
+input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type=number] {
+    -moz-appearance:textfield;
+}
+
+.caption ul.segment-control li.seperator input{
+    text-align: center;
+}
+
+.caption ul.segment-control a {
+    display: block;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    height: 30px;
+    line-height: 30px
+}
+
+.caption ul.segment-control .decrease-font-size, .caption ul.segment-control .increase-font-size {
+    display: block;
+    text-indent: -999px;
+    width: 36px
+}
+
+.caption ul.segment-control .decrease-font-size {
+    background: url(/icons/font-size-control.png) no-repeat
+}
+
+.caption ul.segment-control a:hover .decrease-font-size {
+    background: url(/icons/font-size-control.png) no-repeat 0 -30px
+}
+
+.caption ul.segment-control .increase-font-size {
+    background: url(/icons/font-size-control.png) no-repeat -36px 0
+}
+
+.caption ul.segment-control a:hover .increase-font-size {
+    background: url(/icons/font-size-control.png) no-repeat -36px -30px
+}
+
+.caption {
+    float: right
+}
+
+.caption textarea {
+    width: 310px;
+    margin: 0 0 -3px
+}
+
+.caption input[type=submit]:hover {
+    background-color: #1a97ff
+}
+
+.caption input[type=submit]:active {
+    background-color: #0062b3
+}
+
+.caption input[type=submit].loading {
+    overflow: hidden;
+    text-indent: -999px;
+    cursor: default
+}
+
+.preview-area {
+    width: 600px;
+    float: left
+}
+
+.preview-area .image-container {
+    display: block;
+    background-color: #f4f4f4;
+    text-align: center
+}
+
+.preview-area canvas, .preview-area img {
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%
+}
+
+section.share-page {
+    margin-top: 20px;
+    min-height: 600px
+}
+
+section.share-page .width-limit {
+    width: 940px;
+    margin: 0 auto
+}
+
+.hidden {
+    display: none!important
+}
+
+/*div.form-group:nth-child(4) > input:nth-child(1){
+    font-size: 16px;
+}*/
+
+/*div.form-group:nth-child(1) > input:nth-child(1){
+    font: 1em sans-serif;
+}*/ 

@@ -1,0 +1,20 @@
+.navbar {
+    padding: 0.5em 8em;
+    margin-bottom: 1em;
+}
+
+a, a:hover {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.fa {
+    color: rgba(0, 0, 0, .7);
+}
+
+@media only screen and (max-width: 1015px) {
+    .navbar-box {
+        padding: 10px;
+        margin-bottom: 0.5em;
+    }
+}
